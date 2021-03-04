@@ -1,0 +1,15 @@
+.banner-bar {
+  text-align: center;
+  background-color: rgb(131, 89, 120);
+  color: rgb(51, 48, 48);
+  padding: 40px;
+  border-bottom: 3px solid rgb(170, 162, 162);
+}
+.card-container{
+    background-color: rgb(238, 220, 213);
+}
+
+.teamCard {
+  box-shadow: 0 10px 12px 0 rgba(190, 161, 161, 0.24);
+  background-color: rgb(236, 202, 202);
+}
