@@ -4,8 +4,9 @@ const Manager = require("../lib/Manager");
 
 test("set office number using constructor argument", () => {
     const name = 11;
-    const m = new Manager(name);
-    expect(m.getOfficeNumber).toBe(name)
+    const m = new Manager("testName", 123, "test@test.com",name);
+    
+    expect(m.getOfficeNumber()).toBe(name)
 });
 
 //getrole method should return "Manager"
