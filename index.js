@@ -14,7 +14,7 @@ let finalTeamArray = [];
 function startPrompt() {
     inquirer.prompt([{
         message: " Welcome to Team Generator! Please write your Team Name: ",
-        name: "teamname"
+        name: "teamName"
     }
     ])
         .then(function (data) {
@@ -35,15 +35,15 @@ function addManager() {
     },
     {
         message: "What is your Team Manager's office number?",
-        name: "officenumber"
+        name: "officeNumber"
     }
     ])
         .then(function (data) {
             const name = data.name
             const id = 1
             const email = data.email
-            const officenumber = data.officenumber
-            const teammember = new Manager(name, id, email, officenumber)
+            const officeNumber = data.officeNumber
+            const teammember = new Manager(name, id, email, officeNumber)
             finalTeamArray.push(teammember)
             addTeamMembers();
         })
@@ -90,7 +90,7 @@ function addEngineer() {
     ])
         .then(function (data) {
             const name = data.name
-            const id = finalTeamArray.length + 1
+            const id = finalTeamArray.length 
             const email = data.email
             const github = data.github
             const teammember = new Engineer(name, id, email, github)
@@ -115,7 +115,7 @@ function addIntern() {
     ])
         .then(function (data) {
             const name = data.name
-            const id = finalTeamArray.length + 1
+            const id = finalTeamArray.length 
             const email = data.email
             const school = data.school
             const teammember = new Intern(name, id, email, school)
@@ -160,9 +160,9 @@ function compileTeam() {
                 <p>Employee ID: ${finalTeamArray[i].id}</p>
                 <p>Email: <a href="mailto:${finalTeamArray[i].email}">${finalTeamArray[i].email}</a></p>
         `
-        if (finalTeamArray[i].officenumber) {
+        if (finalTeamArray[i].officeNumber) {
             object += `
-            <p>${finalTeamArray[i].officenumber}</p>
+            <p>OfficeNumber: ${finalTeamArray[i].officeNumber}</p>
             `
         }
         if (finalTeamArray[i].github) {
