@@ -50,10 +50,10 @@ https://github.com/kajalpatel20/Team-Profile-Generator
 
 ## License
  APACHE 2.0
- 
+
   [![Github License](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)]
 
-Questions:
+## Questions:
 
 The repo for this project can be found here: https://github.com/kajalpatel20/Team-Profile-Generator
 
