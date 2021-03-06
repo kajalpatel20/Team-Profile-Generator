@@ -27,6 +27,12 @@ and [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from
 node index.js
 ```
 
+## Contributing
+ ![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)
+
+ Link to Contributor's Covenant:[Contributors Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) 
+
+
  * A walkthrough video demonstrating the functionality of the application:
 
 [demo video link](https://drive.google.com/file/d/1Z6K4ohlCUq7-X9rj6sCrq7Gn0kGzIilj/view?usp=sharing)
