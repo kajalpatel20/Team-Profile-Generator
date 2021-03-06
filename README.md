@@ -1,5 +1,6 @@
  Team-Profile-Generator
 
+ ## Description 
 
 A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so I have also write a unit test for every part of code and ensure that it passes each test.
 
@@ -16,7 +17,8 @@ SO THAT I have quick access to their emails and GitHub profiles
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [License](#l
+* [License](#license)
+
 ## Installation
 
 My application use [Jest](https://www.npmjs.com/package/jest) for running the unit tests 
@@ -32,6 +34,7 @@ node index.js
 
  Link to Contributor's Covenant:[Contributors Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) 
 
+## Tests
 
  * A walkthrough video demonstrating the functionality of the application:
 
